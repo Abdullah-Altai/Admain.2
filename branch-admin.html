@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Branch Admin</title>
+  <link rel="stylesheet" href="branch-admin.css">
+</head>
+<body>
+<nav class="nav">
+  <div class="container nav-inner">
+    <div class="logo">Elite Branch Admin</div>
+    <div class="links">
+      <a class="active" href="branch-admin.html">الرئيسية</a>
+      <a href="branch-bookings.html">الحجوزات</a>
+      <a href="branch-barbers.html">الحلاقين</a>
+      <a href="branch-services.html">الخدمات</a>
+      <a href="branch-reports.html">التقارير</a>
+      <a href="branch-settings.html">الإعدادات</a>
+    </div>
+  </div>
+</nav>
+<main class="container">
+  <section class="hero">
+    <div>
+      <span class="badge">لوحة إدارة فرع واحد</span>
+      <h1>إدارة صالون النخبة فقط</h1>
+      <p>هذه الصفحة مو سوبر أدمن. هذا أدمن فرع يشوف الحجوزات، الحلاقين، الكراسي، والخدمات الخاصة بفرعه فقط.</p>
+    </div>
+    <div class="branch-card">
+      <p>الفرع الحالي</p>
+      <h2>صالون النخبة</h2>
+      <p>المنصور - بغداد</p>
+      <b>Branch ID: elite</b>
+    </div>
+  </section>
+
+  <section class="grid-4">
+    <div class="panel stat"><div class="stat-top"><h3>حجوزات اليوم</h3><div class="icon">📅</div></div><div class="num">18</div><div class="small green">داخل هذا الفرع فقط</div></div>
+    <div class="panel stat"><div class="stat-top"><h3>الحلاقين</h3><div class="icon">💈</div></div><div class="num">6</div><div class="small">4 متاحين / 2 مشغولين</div></div>
+    <div class="panel stat"><div class="stat-top"><h3>كراسي الفرع</h3><div class="icon">🪑</div></div><div class="num">8</div><div class="small orange">5 مستخدمة الآن</div></div>
+    <div class="panel stat"><div class="stat-top"><h3>إيراد اليوم</h3><div class="icon">💰</div></div><div class="num">420</div><div class="small">ألف دينار</div></div>
+  </section>
+
+  <section class="section grid-2">
+    <div class="panel">
+      <h2 class="title">الكراسي الآن</h2>
+      <div class="board">
+        <div class="chair busy"><b>كرسي 1</b><p>Ahmed</p><span class="chip">9:00</span></div>
+        <div class="chair free"><b>كرسي 2</b><p>Ali</p><span class="chip green">فارغ</span></div>
+        <div class="chair busy"><b>كرسي 3</b><p>Hassan</p><span class="chip">10:00</span></div>
+        <div class="chair off"><b>كرسي 4</b><p>صيانة</p><span class="chip red">OFF</span></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2 class="title">آخر طلبات الحجز</h2>
+      <div class="list">
+        <div class="item"><div><b>علي محمد</b><p>قص شعر - Ahmed - 9:00 PM</p></div><span class="chip orange">Pending</span></div>
+        <div class="item"><div><b>حسن كريم</b><p>VIP - Hassan - 10:00 PM</p></div><span class="chip green">Accepted</span></div>
+        <div class="item"><div><b>مصطفى</b><p>لحية - Ali - 8:30 PM</p></div><span class="chip red">Canceled</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section grid-3">
+    <a class="panel" href="branch-bookings.html"><h2>إدارة الحجوزات</h2><p>قبول، رفض، إكمال، أو إلغاء حجوزات هذا الفرع فقط.</p></a>
+    <a class="panel" href="branch-barbers.html"><h2>إدارة الحلاقين</h2><p>إضافة حلاقين للفرع وتعديل أوقاتهم وحالتهم.</p></a>
+    <a class="panel" href="branch-reports.html"><h2>تقارير الفرع</h2><p>إيرادات وخدمات وأداء حلاقين نفس الفرع فقط.</p></a>
+  </section>
+</main>
+<footer class="footer">Branch Admin UI Prototype</footer>
+</body>
+</html>
